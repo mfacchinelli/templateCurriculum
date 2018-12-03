@@ -1,0 +1,250 @@
+%*************************************************************%
+%************************* START MAIN ************************%
+%*************************************************************%
+
+\documentclass[a4paper]{cv-michele}
+
+%-------------------------------------------------------------%
+%------------------- USER-SPECIFIC VARIABLES -----------------%
+%-------------------------------------------------------------%
+
+% Header details
+\name{My Name}
+\gender{Gender}
+\dob{01}{01}{1990}
+\nationality{Nationality}
+
+% Footer details
+\address{Street}{City and Post Code}{Country}
+\email{my@email}
+\phone{My phone number}
+\linkedin{LinkedIn}
+\github{GitHub}
+
+% PDF hypertext variables
+\subject{My Curriculum Vitae}
+\keywords{CV, Resume}
+
+% Images
+\selfimage{me.jpg}
+
+%-------------------------------------------------------------%
+%--------------------------- DOCUMENT ------------------------%
+%-------------------------------------------------------------%
+
+\begin{document}
+
+%--------------------------%
+%          HEADER          %
+%--------------------------%
+
+\Header
+
+\vspace{10pt}
+
+\begin{minipage}[t]{0.23\linewidth}
+
+%-------------------------%
+%          PHOTO          %
+%-------------------------%
+
+\coloredsection{Photo}
+
+\includegraphics[width=\textwidth]{me}
+
+\vspace{15pt}
+
+%-----------------------------%
+%          OBJECTIVE          %
+%-----------------------------%
+
+%\coloredsection{Objective}
+%A brief objective.  
+%
+%\vspace{15pt}
+
+%-----------------------%
+%          BIO          %
+%-----------------------%
+
+\coloredsection{Biography}
+A brief description of who I am.
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.715\linewidth}
+
+%-----------------------------%
+%          EDUCATION          %
+%-----------------------------%
+
+\coloredsection{Education}
+
+\datedsubsection{University}{Beginning -- End}
+\locatedsubsubsection{Education Title}{cum laude}{Delft, NL}
+\specialization{Specialization}
+\thesis{Thesis Title.}
+\courses{List of courses.}
+
+\vspace{15pt}
+
+%--------------------------------------%
+%          WORKING EXPERIENCE          %
+%--------------------------------------%
+
+\coloredsection{Working Experience}
+
+\datedsubsection{Company -- Location}{Beginning -- End}
+\subsubsection*{Job Title}
+Brief job description.
+
+\end{minipage}
+
+\vfill
+
+%--------------------------%
+%          FOOTER          %
+%--------------------------%
+
+\Footer
+
+\pagebreak
+
+%--------------------------------------%
+%-------------- NEW PAGE --------------%
+%--------------------------------------%
+
+%--------------------------%
+%          HEADER          %
+%--------------------------%
+
+\Header
+
+\vspace{10pt}
+
+\begin{minipage}[t]{0.23\linewidth}
+
+%-----------------------------%
+%          INTERESTS          %
+%-----------------------------%
+
+\coloredsection{Interests}
+
+\textsl{Education related:}
+\begin{itemize}\itemsep0em
+\item Interest 1
+\item Interest 2
+\item Interest 3
+\end{itemize}
+
+\textsl{In general:}
+\begin{itemize}\itemsep0em
+\item Interest 1
+\item Interest 2
+\item Interest 3
+\end{itemize}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.71\linewidth}
+
+%----------------------------------------------%
+%          Awards and Accomplishments          %
+%----------------------------------------------%
+
+\coloredsection{Awards and Accomplishments}
+
+\datedsubsection{Organization Name}{Date}
+\websubsubsection{Award Name}{Website}
+Brief description of the award. 
+
+\vspace{15pt}
+
+%--------------------------------%
+%          VOLUNTEERING          %
+%--------------------------------%
+
+\coloredsection{Volunteering}
+
+\datedsubsection{Organization Name}{Beginning -- End}
+\subsubsection*{Job Title}
+Brief job description.
+
+\vspace{15pt}
+
+%--------------------------%
+%          SKILLS          %
+%--------------------------%
+
+\coloredsection{Skills}
+
+\subsection*{Language Skills}\vspace{2.5pt}
+
+\skill{Language 1}{Native} 
+\hspace{5pt}\ob\hspace{5pt} 
+\skill{Language 2}{Fluent}
+
+\vspace{5pt}
+
+\subsection*{Programming Skills}\vspace{2.5pt}
+
+\noindent\parbox[t]{0.175\textwidth}{\textsl{Intermediate}}
+\parbox[t]{0.82\textwidth}{
+	\textbf{Skill 1}
+	\hspace{2.5pt}\ob\hspace{2.5pt}
+	\textbf{Skill 2}
+}
+\noindent\parbox[t]{0.175\textwidth}{\textsl{Basic}}
+\parbox[t]{0.82\textwidth}{
+	\textbf{Skill 1}
+	\hspace{2.5pt}\ob\hspace{2.5pt}
+	\textbf{Skill 2}
+}
+
+\vspace{5pt}
+
+\subsection*{Software Skills}\vspace{2.5pt}
+
+\noindent\parbox[t]{0.175\textwidth}{\textsl{Intermediate}}
+\parbox[t]{0.82\textwidth}{
+	\textbf{Skill 1}
+	\hspace{2.5pt}\ob\hspace{2.5pt}
+	\textbf{Skill 2}
+}
+\noindent\parbox[t]{0.175\textwidth}{\textsl{Basic}}
+\parbox[t]{0.82\textwidth}{
+	\textbf{Skill 1}
+	\hspace{2.5pt}\ob\hspace{2.5pt}
+	\textbf{Skill 2}
+}
+
+\vspace{5pt}
+
+\subsection*{Licenses}
+License 1 \hspace{5pt}\ob\hspace{5pt} License 2
+
+\vspace{15pt}
+
+%------------------------------%
+%          ACTIVITIES          %
+%------------------------------%
+
+\coloredsection{Activities}
+
+\activity{Organization Name}{Brief description.}{Website}
+
+\end{minipage}
+
+\vfill
+
+%--------------------------%
+%          FOOTER          %
+%--------------------------%
+
+\Footer
+
+\end{document}
+
+%*************************************************************%
+%************************** END MAIN *************************%
+%*************************************************************%
