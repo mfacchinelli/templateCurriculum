@@ -129,7 +129,7 @@
 
 \centerline{ \scshape{ \Huge{ \textcolor{colored}{ \@name } } } }
 \vspace{10pt}
-\centerline{ {\large\faVenusMars} \@gender {\hspace{5pt}\ob\hspace{5pt}} {\large\faBirthdayCake} \formatdate{\@dobDay}{\@dobMonth}{\@dobYear} {\hspace{5pt}\ob\hspace{5pt}} {\large\faFlag} \@nationality } %\faTransgenderAlt
+\centerline{ {\large\faTransgenderAlt} \@gender {\hspace{5pt}\ob\hspace{5pt}} {\large\faBirthdayCake} \formatdate{\@dobDay}{\@dobMonth}{\@dobYear} {\hspace{5pt}\ob\hspace{5pt}} {\large\faFlag} \@nationality } %\faTransgenderAlt
 
 \endgroup
 }
